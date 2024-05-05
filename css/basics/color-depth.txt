@@ -1,0 +1,7 @@
+white background
+#e6ff41
+#ffe337
+#fe0000
+#912d53
+#1b277b
+#235361

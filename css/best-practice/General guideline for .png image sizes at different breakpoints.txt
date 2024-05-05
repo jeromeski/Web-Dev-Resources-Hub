@@ -1,0 +1,8 @@
+## Copilot
+Sure, here's a general guideline for .png image sizes at different breakpoints. These sizes are just recommendations and can be adjusted based on your specific needs:
+- Extra small devices (phones, less than 600px): Images should be around 480px wide.
+- Small devices (portrait tablets and large phones, 600px and up): Images should be around 720px wide.
+- Medium devices (landscape tablets, 768px and up): Images should be around 960px wide.
+- Large devices (laptops/desktops, 992px and up): Images should be around 1200px wide.
+- Extra large devices (large laptops and desktops, 1200px and up): Images should be around 1920px wide.
+Remember, these are just guidelines. The actual size of your images may vary depending on the specific design of your website and the content of the images. Always aim for a balance between image quality and load time. Also, consider using responsive images techniques to serve the right image size for the right device. This can significantly improve the performance of your website. 🚀

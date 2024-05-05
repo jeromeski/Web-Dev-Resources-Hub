@@ -1,0 +1,226 @@
+info  - Generating static pages (440/440)
+info  - Finalizing page optimization  
+
+Page                                                                       Size     First Load JS
+┌ ○ /                                                                      415 B           675 kB
+├   /_app                                                                  0 B             675 kB
+├ ƒ /_middleware                                                           21.5 kB         696 kB
+├ ○ /401                                                                   196 B           675 kB
+├ ○ /404                                                                   913 B           676 kB
+├ ○ /500                                                                   913 B           676 kB
+├ ○ /acl                                                                   1.59 kB         676 kB
+├ ○ /appointments                                                          29.5 kB         943 kB
+├ λ /appointments/[id]                                                     3.64 kB         748 kB
+├ ○ /appointments/maps/[id]                                                1.02 kB         707 kB
+├ ○ /appointments/maps/Map                                                 963 B           707 kB
+├ ○ /appointments/payments (568 ms)                                        1.48 kB         761 kB
+├ ○ /appointments/payments/payment-list                                    6.49 kB         780 kB
+├ ○ /apps/audit                                                            4.24 kB         719 kB
+├ ○ /apps/calendar                                                         10.4 kB         801 kB
+├ ○ /apps/chat                                                             450 B           675 kB
+├ ○ /apps/email                                                            282 B           760 kB
+├ ● /apps/email/[folder]                                                   270 B           675 kB
+├   ├ /apps/email/inbox
+├   ├ /apps/email/spam
+├   ├ /apps/email/trash
+├   └ [+3 more paths]
+├ ● /apps/email/label/[label]                                              271 B           675 kB
+├   ├ /apps/email/label/private
+├   ├ /apps/email/label/company
+├   ├ /apps/email/label/important
+├   └ /apps/email/label/personal
+├ ● /apps/invoice/add                                                      12.5 kB         757 kB
+├ ○ /apps/invoice/edit                                                     371 B           715 kB
+├ ● /apps/invoice/edit/[id] (1384 ms)                                      316 B           715 kB
+├   ├ /apps/invoice/edit/4987
+├   ├ /apps/invoice/edit/4988
+├   ├ /apps/invoice/edit/4989
+├   └ [+47 more paths]
+├ ○ /apps/invoice/list                                                     9.63 kB         789 kB
+├ ○ /apps/invoice/preview                                                  306 B           796 kB
+├ λ /apps/invoice/preview/[id]                                             349 B           796 kB
+├ ○ /apps/invoice/print                                                    333 B           681 kB
+├ ● /apps/invoice/print/[id] (1488 ms)                                     368 B           681 kB
+├   ├ /apps/invoice/print/5034 (331 ms)
+├   ├ /apps/invoice/print/4987
+├   ├ /apps/invoice/print/4988
+├   ├ /apps/invoice/print/4989
+├   ├ /apps/invoice/print/4990
+├   ├ /apps/invoice/print/4991
+├   ├ /apps/invoice/print/4992
+├   └ [+43 more paths]
+├ ○ /apps/permissions                                                      7.27 kB         760 kB
+├ ○ /apps/quotation/add                                                    12.3 kB         738 kB
+├ ○ /apps/quotation/edit                                                   310 B           675 kB
+├ λ /apps/quotation/edit/[id]                                              12.5 kB         738 kB
+├ ○ /apps/quotation/list                                                   4.96 kB         751 kB
+├ ○ /apps/quotation/preview                                                416 B           675 kB
+├ λ /apps/quotation/preview/[id]                                           8.41 kB         690 kB
+├ ○ /apps/roles                                                            2.51 kB         754 kB
+├ ○ /apps/user/list                                                        248 B           872 kB
+├ ● /apps/user/view                                                        14.5 kB         762 kB
+├ ○ /apps/user/view/[id]                                                   243 B           675 kB
+├ ○ /book-form                                                             334 B           675 kB
+├ λ /book-form/[id]                                                        11.3 kB         847 kB
+├ ○ /booking-form (2469 ms)                                                167 kB         1.09 MB
+├ λ /booking-form/[organizationId]/[id]                                    12.4 kB         848 kB
+├ ○ /booking-form/[organizationId]/default                                 6.86 kB         732 kB
+├ ○ /booking-form/[organizationId]/event (438 ms)                          7.75 kB         716 kB
+├ ○ /booking-form/[organizationId]/product (431 ms)                        4.55 kB         686 kB
+├ ○ /booking-form/[organizationId]/tshirt (422 ms)                         5.07 kB         687 kB
+├ λ /booking-form/webflow/[organizationId]/[formId]                        42.2 kB         802 kB
+├ ○ /brandkit                                                              4.28 kB         701 kB
+├ ○ /brandkit/color                                                        3 kB            700 kB
+├ ○ /brandkit/font                                                         2.21 kB         699 kB
+├ ○ /brandkit/graphic                                                      3.6 kB          700 kB
+├ ○ /brandkit/graphic/[id]                                                 3.42 kB         700 kB
+├ ○ /brandkit/layout                                                       214 B           697 kB
+├ ○ /brandkit/logo                                                         3.2 kB          700 kB
+├ ○ /business-owner-signup (434 ms)                                        7.93 kB         737 kB
+├ ○ /charts/apex-charts                                                    7.31 kB         711 kB
+├ ○ /charts/chartjs                                                        74.1 kB         784 kB
+├ ○ /charts/recharts                                                       19.6 kB         828 kB
+├ ○ /chatgpt                                                               1.87 kB         677 kB
+├ ○ /chatgpt/BouncingDotsLoader                                            310 B           675 kB
+├ ○ /clients (2437 ms)                                                     22.8 kB         894 kB
+├ λ /clients/[id]                                                          1.33 kB         676 kB
+├ ○ /components/accordion                                                  9.85 kB         687 kB
+├ ○ /components/alerts                                                     6.55 kB         684 kB
+├ ○ /components/avatars                                                    6.03 kB         683 kB
+├ ○ /components/badges                                                     9 kB            686 kB
+├ ○ /components/button-group                                               10.2 kB         687 kB
+├ ○ /components/buttons                                                    6.51 kB         684 kB
+├ ○ /components/chips                                                      5.63 kB         683 kB
+├ ○ /components/custom-pagination                                          647 B           683 kB
+├ ○ /components/default-booking-form                                       242 B           736 kB
+├ ○ /components/default-event-form                                         3.98 kB         715 kB
+├ ○ /components/default-task-form                                          2.8 kB          711 kB
+├ ○ /components/dialogs                                                    12.2 kB         690 kB
+├ ○ /components/list                                                       7.86 kB         689 kB
+├ ○ /components/menu                                                       8.08 kB         685 kB
+├ ○ /components/more                                                       5.17 kB         680 kB
+├ ○ /components/pagination                                                 4.14 kB         685 kB
+├ ○ /components/password-strength-meter                                    633 B          1.07 MB
+├ ○ /components/ratings                                                    5.67 kB         686 kB
+├ ○ /components/snackbar                                                   9.58 kB         687 kB
+├ ○ /components/spinner-backdrop                                           624 B           675 kB
+├ ○ /components/tabs                                                       7.44 kB         690 kB
+├ ○ /components/timeline                                                   9.21 kB         692 kB
+├ ○ /components/toast                                                      6.42 kB         684 kB
+├ ○ /components/tree-view                                                  12.8 kB         690 kB
+├ λ /confirm-email-update/[organizationId]/[userId]/[newEmail]             913 B           676 kB
+├ ○ /content-post-scheduler                                                35.6 kB         990 kB
+├ ○ /content-post-scheduler/SidebarLeft                                    3.59 kB         678 kB
+├ ○ /content-table (498 ms)                                                3.42 kB         749 kB
+├ ○ /dall-e                                                                2.68 kB         677 kB
+├ ○ /dall-e/BouncingDotsLoader                                             310 B           675 kB
+├ ○ /dashboards/analytics                                                  9.01 kB         753 kB
+├ ○ /dashboards/crm                                                        7.76 kB         688 kB
+├ ○ /dashboards/ecommerce                                                  21.3 kB         753 kB
+├ ○ /default-booking-form                                                  339 B           736 kB
+├ λ /default-booking-form/[id]                                             425 B           736 kB
+├ ○ /digital-assets                                                        7.91 kB         695 kB
+├ ○ /digital-assets/[digitalAssetId]                                       3.41 kB         678 kB
+├ ○ /email-drip-campaign                                                   9.82 kB         691 kB
+├ λ /email-drip-campaign/[campaignId]                                      35.7 kB         814 kB
+├ ○ /email-verification                                                    3.59 kB         708 kB
+├ λ /email-verification/[id]                                               2.07 kB         677 kB
+├ ○ /forgot-password                                                       3.01 kB         708 kB
+├ ○ /forms/form-elements/autocomplete                                      11.8 kB         689 kB
+├ ○ /forms/form-elements/checkbox                                          9.88 kB         687 kB
+├ ○ /forms/form-elements/editor                                            4.22 kB         750 kB
+├ ○ /forms/form-elements/file-uploader                                     6.53 kB         689 kB
+├ ○ /forms/form-elements/input-mask                                        12 kB           698 kB
+├ ○ /forms/form-elements/pickers (402 ms)                                  40.2 kB         749 kB
+├ ○ /forms/form-elements/radio                                             10.3 kB         688 kB
+├ ○ /forms/form-elements/select                                            11.4 kB         689 kB
+├ ○ /forms/form-elements/slider                                            7.45 kB         691 kB
+├ ○ /forms/form-elements/switch                                            7.95 kB         685 kB
+├ ○ /forms/form-elements/text-field                                        8.44 kB         686 kB
+├ ○ /forms/form-elements/textarea                                          4.08 kB         681 kB
+├ ○ /forms/form-layouts                                                    10 kB           728 kB
+├ λ /forms/form-validation                                                 8.63 kB         736 kB
+├ λ /forms/form-wizard                                                     7.64 kB         711 kB
+├ ○ /login                                                                 5.47 kB         716 kB
+├ ○ /logs                                                                  1.73 kB         742 kB
+├ ○ /manage-pricing                                                        7.58 kB         779 kB
+├ ○ /media-editor                                                          514 B           675 kB
+├ ○ /notification-settings                                                 665 B           675 kB
+├ ○ /notifications                                                         4.52 kB         682 kB
+├ ○ /orders                                                                11.8 kB         759 kB
+├ λ /orders/[id]                                                           3.45 kB         744 kB
+├ ○ /pages/account-settings                                                24.3 kB         729 kB
+├ ○ /pages/auth/forgot-password-v1                                         2.62 kB         677 kB
+├ ○ /pages/auth/forgot-password-v2                                         2.8 kB          681 kB
+├ ○ /pages/auth/login-v1                                                   5.92 kB         681 kB
+├ ○ /pages/auth/login-v2                                                   6.26 kB         685 kB
+├ ○ /pages/auth/login-with-appbar                                          6.52 kB         685 kB
+├ ○ /pages/auth/register-v1                                                3.37 kB         682 kB
+├ ○ /pages/auth/register-v2                                                3.61 kB         686 kB
+├ ○ /pages/auth/reset-password-v1                                          3.31 kB         678 kB
+├ ○ /pages/auth/reset-password-v2                                          3.58 kB         682 kB
+├ ○ /pages/connected-accounts                                              4.84 kB         680 kB
+├ ● /pages/dialog-examples                                                 19.5 kB         711 kB
+├ ● /pages/faq                                                             4.61 kB         679 kB
+├ ○ /pages/inbox                                                           10.7 kB         778 kB
+├ ● /pages/knowledge-base                                                  2.06 kB         677 kB
+├ ● /pages/knowledge-base/[category]                                       2.8 kB          677 kB
+├   ├ /pages/knowledge-base/sales-automation
+├   ├ /pages/knowledge-base/marketing-automation
+├   ├ /pages/knowledge-base/api-questions
+├   └ [+3 more paths]
+├ ● /pages/knowledge-base/[category]/[question] (4412 ms)                  2.57 kB         677 kB
+├   ├ /pages/knowledge-base/sales-automation/how-secure-is-my-password
+├   ├ /pages/knowledge-base/sales-automation/can-i-change-my-username
+├   ├ /pages/knowledge-base/sales-automation/where-can-i-upload-my-avatar
+├   └ [+165 more paths]
+├ ○ /pages/language                                                        657 B           675 kB
+├ ○ /pages/misc/401-not-authorized                                         312 B           675 kB
+├ ○ /pages/misc/404-not-found                                              965 B           676 kB
+├ ○ /pages/misc/500-server-error                                           966 B           676 kB
+├ ○ /pages/misc/coming-soon                                                987 B           676 kB
+├ ○ /pages/misc/under-maintenance                                          940 B           676 kB
+├ ○ /pages/organizations                                                   5.16 kB         745 kB
+├ ● /pages/pricing                                                         6.46 kB         681 kB
+├ ○ /pages/settings                                                        40.7 kB         956 kB
+├ ○ /pages/tips-resources                                                  4.92 kB         692 kB
+├ ○ /pages/trainings-certificate                                           1.23 kB         676 kB
+├ ○ /pages/workmail-signin                                                 3.38 kB         685 kB
+├ ○ /partners/assign-booking                                               4.38 kB         745 kB
+├ ○ /partners/partners-list                                                17.4 kB         856 kB
+├ λ /partners/partners-list/[id]                                           2.51 kB         677 kB
+├ ○ /production-wave                                                       5.8 kB          751 kB
+├ ○ /products                                                              10.5 kB         758 kB
+├ λ /products/[id]                                                         1.47 kB         676 kB
+├ ○ /prospects                                                             57.5 kB         934 kB
+├ ○ /referrals/list                                                        3.31 kB         749 kB
+├ ○ /register                                                              4.45 kB         713 kB
+├ λ /reset-password/[organizationId]/[userId]                              3.85 kB         708 kB
+├ ○ /simple-register                                                       7.59 kB        1.09 MB
+├ ○ /tables/data-grid                                                      4.2 kB          744 kB
+├ ○ /tables/mui                                                            9.12 kB         687 kB
+├ ○ /templates (1334 ms)                                                   5.78 kB         703 kB
+├ λ /templates/settings/[id]                                               5.98 kB         768 kB
+├ ○ /training-courses                                                      1.39 kB         783 kB
+├ ○ /training-courses/course/[userId]/[courseId]/[orgId]                   6.15 kB         686 kB
+├ ○ /training-courses/dashboard                                            247 B           781 kB
+├ ○ /ui/cards/actions                                                      4.73 kB         679 kB
+├ ○ /ui/cards/advanced (902 ms)                                            12.9 kB         800 kB
+├ ○ /ui/cards/basic                                                        10.1 kB         693 kB
+├ ○ /ui/cards/gamification                                                 2.03 kB         677 kB
+├ ● /ui/cards/statistics                                                   5.09 kB         683 kB
+├ ○ /ui/cards/widgets                                                      9.49 kB         686 kB
+├ ○ /ui/icons                                                              9.14 kB         684 kB
+├ ○ /ui/typography                                                         1.97 kB         677 kB
+└ ○ /web-page-builder                                                      2.38 kB         683 kB
++ First Load JS shared by all                                              675 kB
+  ├ chunks/framework-568b840ecff66744.js                                   42.2 kB
+  ├ chunks/main-1ad0c79332af4e8c.js                                        28.5 kB
+  ├ chunks/pages/_app-ed963fcf1e5e2e34.js                                  602 kB
+  ├ chunks/webpack-df16379d452be642.js                                     1.96 kB
+  └ css/5e8649c01ec76371.css                                               2.29 kB
+
+ƒ  (Middleware)  intercepts requests (uses _middleware)
+λ  (Server)      server-side renders at runtime (uses getInitialProps or getServerSideProps)
+○  (Static)      automatically rendered as static HTML (uses no initial props)
+●  (SSG)         automatically generated as static HTML + JSON (uses getStaticProps)
